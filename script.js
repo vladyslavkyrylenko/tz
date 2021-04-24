@@ -35,7 +35,7 @@ burger.onclick = function () {
    this.classList.toggle('burger-active');
    body.classList.toggle('body-active');
    menu.classList.toggle('menu-active');
-   let menuActive = document.querySelector('.menuActive');
+   let menuActive = document.querySelector('.menu-active');
    menuActive.onclick = function () {
       burger.classList.toggle('burger-active');
       body.classList.toggle('body-active');
